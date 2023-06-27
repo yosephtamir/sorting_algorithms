@@ -81,6 +81,4 @@ void sorting(int *array, int lower, int higher, size_t size)
 		sorting(array, lower, i - 1, size);
 		sorting(array, i + 1, higher, size);
 	}
-	else
-		return;
 }
