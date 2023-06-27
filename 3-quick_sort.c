@@ -72,7 +72,7 @@ int partition(int *array, int lower, int higher, size_t size)
  * @size: is the size of the array
  * Return: void
  */
-void sorting(int *array, int lower, int higher, int size)
+void sorting(int *array, int lower, int higher, size_t size)
 {
 	if (lower < higher)
 	{
